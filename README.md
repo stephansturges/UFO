@@ -5,8 +5,12 @@ lightweight embeddable DNNs for spotting flying objects
 
 Single-shot detection of UAV in realtime on embedded hardware. 
 Right now it can only detect Shahed136 drones.
+
 <img width="375" alt="image" src="https://user-images.githubusercontent.com/20320678/213455153-5ae4b535-980d-417d-aa6b-a9b462071b1b.png">
 
+In realtime the performance is not bad, at least in a low-tech test pointing a camera at my screen:
+
+https://www.youtube.com/shorts/1uBETIELE8U
 
 # How can I use this?
 
