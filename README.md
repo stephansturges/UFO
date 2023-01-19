@@ -4,7 +4,9 @@ lightweight embeddable DNNs for spotting flying objects
 # What does this do? 
 
 Single-shot detection of UAV in realtime on embedded hardware. 
-Right now it can only detect Shahed136 suicide drones.
+Right now it can only detect Shahed136 drones.
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/20320678/213455153-5ae4b535-980d-417d-aa6b-a9b462071b1b.png">
+
 
 # How can I use this?
 
