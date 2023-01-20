@@ -10,7 +10,9 @@ Right now it can only detect Shahed136 drones.
 
 In realtime the performance is not bad, at least in a low-tech test pointing a camera at my screen:
 
-https://www.youtube.com/watch?v=B_32GQ-jqx4
+[![YOUTUBE VIDEO DEMO](https://user-images.githubusercontent.com/20320678/213645780-9a64837e-dab0-40c9-8013-10a30efa260f.png)](http://www.youtube.com/watch?v=B_32GQ-jqx4 "UFO V2 DNN")
+
+
 
 # 2023 01 20
 Updated NN to v2 which is much more stable due to better augmentations
