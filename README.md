@@ -12,6 +12,9 @@ In realtime the performance is not bad, at least in a low-tech test pointing a c
 
 https://www.youtube.com/shorts/1uBETIELE8U
 
+# 2023 01 20
+Updated NN to v2 which is much more stable due to better augmentations
+
 # How can I use this?
 
 You will need any Luxonis device with an RGB camera and the correct version of the depthai-python library installed for your platform and device combination. In terms of real-world use I would recommend that you get a device with a global shutter RGB camera with high light sensitivity and relatively low optical distortion.

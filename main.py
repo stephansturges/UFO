@@ -17,9 +17,9 @@ import blobconverter
 # parse arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("-m", "--model", help="Provide model name or model path for inference",
-                    default='./model/finalopttest1_openvino_2021.4_6shave.blob', type=str)
+                    default='./model/best_openvino_2021.4_6shave.blob', type=str)
 parser.add_argument("-c", "--config", help="Provide config path for inference",
-                    default='./model/finalopttest1.json', type=str)
+                    default='./model/best.json', type=str)
 args = parser.parse_args()
 
 # parse config
