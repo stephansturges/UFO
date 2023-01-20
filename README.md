@@ -10,7 +10,7 @@ Right now it can only detect Shahed136 drones.
 
 In realtime the performance is not bad, at least in a low-tech test pointing a camera at my screen:
 
-https://www.youtube.com/shorts/1uBETIELE8U
+https://www.youtube.com/watch?v=B_32GQ-jqx4
 
 # 2023 01 20
 Updated NN to v2 which is much more stable due to better augmentations
