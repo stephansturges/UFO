@@ -81,7 +81,7 @@ xoutRgb.setStreamName("rgb")
 
 # Properties
 nn.setBlobPath(nnPath)
-nn.setConfidenceThreshold(confidenceThreshold)
+nn.setConfidenceThreshold(confidenceThreshold + 12)
 nn.setNumClasses(classes)
 nn.setCoordinateSize(coordinates)
 nn.setAnchors(anchors)
@@ -114,7 +114,7 @@ with dai.Device(pipeline) as device:
             for detection in detections:
                 bbox = frameNorm(frame, (detection.xmin, detection.ymin, detection.xmax, detection.ymax))
                 #cv2.putText(frame, labels[detection.label], (bbox[0] + 10, bbox[1] + 20), cv2.FONT_HERSHEY_TRIPLEX, 2, 255)
-                cv2.putText(frame, f"{int(detection.confidence * 100)}%", (bbox[0] + 10, bbox[1] + 40), cv2.FONT_HERSHEY_TRIPLEX, 3, 255)
+                cv2.putText(frame, f"{int(detection.confidence * 100)}%", (bbox[0] + 10, bbox[1] + 20), cv2.FONT_HERSHEY_TRIPLEX, 0.5, 255)
                 cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, 2)
         # Show the frame
         cv2.imshow(name, frame)
